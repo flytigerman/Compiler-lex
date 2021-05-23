@@ -12,17 +12,17 @@ int yylex(void);
 
 %option noyywrap
 
-/* 补充相关代码 */
+/*添加相关代码*/
 
 %%
 
-/* 补充相关代码 */
+/*添加相关代码*/
 
 %%
 int main()
 {
 	for(;;)
-	    printf("", yylex());
+	    yylex();
 	
 	return 0;
 }
